@@ -1,0 +1,22 @@
+@mixin flexDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin gridDisplay {
+    display: grid;
+    place-items: center;    
+}
+@mixin textDecor($fontSize, $fontWeight, $col) {
+    text-align: center;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    color: $col;
+}
+@mixin imgSize($img_width, $img_height) {
+    width: $img_width;
+    height: $img_height;
+}
+@mixin borderProp($width, $type, $color){
+    border: $width $type $color;
+}

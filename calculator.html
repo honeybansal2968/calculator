@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="section_center">
+        <div class="display_calc">
+            <p class="display_content" aria-placeholder="0">0</p>
+            <div class="display_keys">
+                <table border="1" class="table">
+                    <tbody class="tbody">
+                        <tr class="tr_One">
+                            <td class="td_one">
+                                <button class="plus" data-action="add">+</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="minus" data-action="subtract">-</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="multiply" data-action="multiply">*</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="divide" data-action="divide">/</button>
+                            </td>
+                        </tr>
+                        <tr class="tr_One">
+                            <td class="td_one">
+                                <button class="seven">7</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="eight">8</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="9">9</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="equal_to" data-action="calculate">=</button>
+                            </td>
+                        </tr>
+                        <tr class="tr_One">
+                            <td class="td_one">
+                                <button class="four">4</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="five">5</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="six">6</button>
+                            </td>
+                        </tr>
+                        <tr class="tr_One">
+                            <td class="td_one">
+                                <button class="one">1</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="two">2</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="three">3</button>
+                            </td>
+                        </tr>
+                        <tr class="tr_One">
+                            <td class="td_one">
+                                <button class="decimal" data-action="decimal">.</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="zero">0</button>
+                            </td>
+                            <td class="td_one">
+                                <button class="all_clear" data-action="clear">AC</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="calculator.js"></script>
+</body>
+</html>

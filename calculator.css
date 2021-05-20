@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-top: 3rem;
+}
+
+button {
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+
+button:hover {
+  background-color: #dbdbdb;
+}
+
+.section_center {
+  width: 48vw;
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.4rem;
+  background-color: black;
+  -webkit-box-shadow: 0 0.3rem 0.5rem 0.03rem #1d1c1c;
+          box-shadow: 0 0.3rem 0.5rem 0.03rem #1d1c1c;
+  position: relative;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.section_center:hover {
+  -webkit-box-shadow: 0 0.3rem 0.5rem 0.09rem #0c0c0c;
+          box-shadow: 0 0.3rem 0.5rem 0.09rem #0c0c0c;
+}
+
+.section_center .display_calc {
+  position: absolute;
+  margin-top: 1rem;
+  width: 90%;
+  height: 5rem;
+  background-color: white;
+  border: 0.2rem solid white;
+  border-radius: 0.3rem;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.section_center .display_calc p {
+  overflow: hidden;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  margin-left: -0.5rem;
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+
+.section_center .display_keys {
+  position: absolute;
+  margin-top: 6rem;
+  width: 100%;
+  height: 10.6rem;
+  border: 0.1rem solid black;
+  background-color: #1e1b31;
+}
+
+.section_center .display_keys .table {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0.1rem solid white;
+}
+
+.section_center .display_keys .table .tbody {
+  position: absolute;
+  width: 100%;
+  height: 2rem;
+  margin-left: -0.13rem;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(1) {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(1) .td_one {
+  width: 40%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(1) .td_one button {
+  width: 100%;
+  height: 100%;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(2) {
+  position: absolute;
+  top: 2rem;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(2) .td_one {
+  width: 25%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(2) .td_one button {
+  width: 100%;
+  height: 100%;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(2) .td_one:nth-child(4) {
+  position: relative;
+  width: 25%;
+  height: 8rem;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(2) .td_one:nth-child(4) button {
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(2) .td_one:nth-child(4) button:hover {
+  background-color: #fff;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(3) {
+  position: absolute;
+  top: 4rem;
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(3) .td_one {
+  width: 35%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(3) .td_one button {
+  width: 100%;
+  height: 100%;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(4) {
+  position: absolute;
+  top: 6rem;
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(4) .td_one {
+  width: 35%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(4) .td_one button {
+  width: 100%;
+  height: 100%;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(5) {
+  position: absolute;
+  top: 8rem;
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(5) .td_one {
+  width: 35%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.section_center .display_keys .table .tbody .tr_One:nth-child(5) .td_one button {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=calculator.css.map */
